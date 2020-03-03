@@ -1,0 +1,35 @@
+body {
+    background-image: url('./assets/images/balloons/bg.jpg');
+    background-size: cover;
+    position: fixed;
+}
+
+.container {
+    position: relative;
+}
+
+
+.bubble,
+.bubble1,
+.bubble2,
+.bubble3,
+.bubble4,
+.bubble5,
+.bubble6,
+.bubble7 {
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    height: 100px;
+    width: 50px;
+    /*border-radius: 100%;*/
+    /*background-color: yellow;*/
+    background-image: url('./assets/images/balloons/baloon.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+
